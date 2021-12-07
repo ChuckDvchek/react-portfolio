@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
     const goToLinkedIn = () => {
-
+        window.location = 'https://www.linkedin.com/in/carsdan-dvorachek-1b0a14219/'
     }
 
     return (
