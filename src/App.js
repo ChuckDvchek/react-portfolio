@@ -6,6 +6,7 @@ import Contact from "./Components/Contact";
 import Resume from "./Components/Resume";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
+import './index.css';
 
 function App() {
     const [page,setPage] = useState('home');
@@ -32,7 +33,7 @@ function App() {
     },[page])
 
     return (
-        <div className="App">
+        <div id="App" className="App">
             <Header page={page} setPage={setPage}/>
             {pageContent}
             <Footer/>
